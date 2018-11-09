@@ -1,0 +1,27 @@
+function Partition (f, l, pivot)
+i < f
+j < l
+
+while (i >= j) do
+  while (A(j) > µ and j >= f) do
+  j < j-1
+  end while
+  while (A(i) < µ and i <= l) do
+  i < i+1
+  end while
+  if (i < j) then
+  SWAP (A(i), A(j))
+  i< i+1
+  j< j+1
+  
+end while
+
+
+procedure QUick Sort
+.... IF A(i) through A(j) contains at least two distinct values then let µ be the larger of the 1st 2 distinct permute A(i)...A(j) so that for some +1 <= k <= j,
+A(i)... A(k)-1) all have keys less than µ and A(k)..A(j) all have keys >= µ.
+
+Quick sort(i, k-1)
+quicksort (k, j)
+
+end if.
